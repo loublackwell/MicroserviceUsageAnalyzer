@@ -126,21 +126,21 @@ MicroserviceUsageAnalyzer/
 
 **usage.py** – Core logic for tracking and calculating usage for customers.
 
-__init__.py – Marks src as a Python package.
+**__init__.py** – Marks src as a Python package.
 
-tests/ – Unit tests for verifying code correctness:
+**tests/** – Unit tests for verifying code correctness:
 
-test__client.py – Tests for the client library, including health checks, record usage, and idempotency.
+**test__client.py** – Tests for the client library, including health checks, record usage, and idempotency.
 
-test__crud.py – Tests CRUD operations against the test database.
+**test__crud.py** – Tests CRUD operations against the test database.
 
-test__api.py – Tests API endpoints (e.g., POST /usage).
+**test__api.py** – Tests API endpoints (e.g., POST /usage).
 
-test__simulator.py – Tests simulator functions and data generation.
+**test__simulator.py** – Tests simulator functions and data generation.
 
-__init__.py – Marks tests as a Python package.
+**__init__.py** – Marks tests as a Python package.
 
-logs/ – Contains log files generated during script execution:
+**logs/** – Contains log files generated during script execution:
 
 client.log – Logs from client library actions and API requests.
 
