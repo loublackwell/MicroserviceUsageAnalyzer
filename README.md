@@ -112,19 +112,19 @@ MicroserviceUsageAnalyzer/
 
 **api.py** – FastAPI application exposing endpoints for usage tracking.
 
-simulator.py – Generates simulated usage data for testing purposes.
+**simulator.py** – Generates simulated usage data for testing purposes.
 
-simulator-test.py – Helper scripts for testing simulator outputs.
+**simulator-test.py** – Helper scripts for testing simulator outputs.
 
-generator.py – Additional data generation utilities (e.g., random timestamps or usage).
+**generator.py** – Additional data generation utilities (e.g., random timestamps or usage).
 
-client-logging.py – Logging utilities used by client and other scripts.
+**client-logging.py** – Logging utilities used by client and other scripts.
 
-service-utils.py – Utility functions for common service tasks.
+**service-utils.py** – Utility functions for common service tasks.
 
-initialize.py – Sets up initial database structure and seeds sample data.
+**initialize.py** – Sets up initial database structure and seeds sample data.
 
-usage.py – Core logic for tracking and calculating usage for customers.
+**usage.py** – Core logic for tracking and calculating usage for customers.
 
 __init__.py – Marks src as a Python package.
 
