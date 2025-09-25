@@ -82,79 +82,79 @@ MicroserviceUsageAnalyzer/
 ---
 ### Root Directory Files and Folders
 
-    **customers.db** – Main SQLite database containing customer and usage data.
+**customers.db** – Main SQLite database containing customer and usage data.
 
-    **test__customers.db** – Test database used for unit tests.
+**test__customers.db** – Test database used for unit tests.
 
-    **testing.db** – Another testing database, likely for intermediate/test purposes.
+**testing.db** – Another testing database, likely for intermediate/test purposes.
 
-    **customers__tests.db** – Additional test database; used for test isolation.
+**customers__tests.db** – Additional test database; used for test isolation.
 
-    **status.json** – Stores status information about the system or simulated runs.
+**status.json** – Stores status information about the system or simulated runs.
 
-    **docker-compose.yml** – Docker Compose configuration file for running services.
+**docker-compose.yml** – Docker Compose configuration file for running services.
 
-    **Dockerfile** – Dockerfile to containerize the application.
+Dockerfile – Dockerfile to containerize the application.
 
-    **requirements.txt** – Python dependencies required to run the project.
+requirements.txt – Python dependencies required to run the project.
 
-    **reference.txt** – References and acknowledgements, including data sources and tools used.
+reference.txt – References and acknowledgements, including data sources and tools used.
 
-    **LICENSE** – License file for the project.
+LICENSE – License file for the project.
 
-    Folders
+Folders
 
-    src/ – Source code for the application. Contains all main scripts:
+src/ – Source code for the application. Contains all main scripts:
 
-    client.py – Client library to interact with the internal usage tracking API. Handles requests, logging, and error tracking.
+client.py – Client library to interact with the internal usage tracking API. Handles requests, logging, and error tracking.
 
-    crud.py – CRUD operations for database access (create, read, update, delete usage and customer data).
+crud.py – CRUD operations for database access (create, read, update, delete usage and customer data).
 
-    api.py – FastAPI application exposing endpoints for usage tracking.
+api.py – FastAPI application exposing endpoints for usage tracking.
 
-    simulator.py – Generates simulated usage data for testing purposes.
+simulator.py – Generates simulated usage data for testing purposes.
 
-    simulator-test.py – Helper scripts for testing simulator outputs.
+simulator-test.py – Helper scripts for testing simulator outputs.
 
-    generator.py – Additional data generation utilities (e.g., random timestamps or usage).
+generator.py – Additional data generation utilities (e.g., random timestamps or usage).
 
-    client-logging.py – Logging utilities used by client and other scripts.
+client-logging.py – Logging utilities used by client and other scripts.
 
-    service-utils.py – Utility functions for common service tasks.
+service-utils.py – Utility functions for common service tasks.
 
-    initialize.py – Sets up initial database structure and seeds sample data.
+initialize.py – Sets up initial database structure and seeds sample data.
 
-    usage.py – Core logic for tracking and calculating usage for customers.
+usage.py – Core logic for tracking and calculating usage for customers.
 
-    __init__.py – Marks src as a Python package.
+__init__.py – Marks src as a Python package.
 
-    tests/ – Unit tests for verifying code correctness:
+tests/ – Unit tests for verifying code correctness:
 
-    test__client.py – Tests for the client library, including health checks, record usage, and idempotency.
+test__client.py – Tests for the client library, including health checks, record usage, and idempotency.
 
-    test__crud.py – Tests CRUD operations against the test database.
+test__crud.py – Tests CRUD operations against the test database.
 
-    test__api.py – Tests API endpoints (e.g., POST /usage).
+test__api.py – Tests API endpoints (e.g., POST /usage).
 
-    test__simulator.py – Tests simulator functions and data generation.
+test__simulator.py – Tests simulator functions and data generation.
 
-    __init__.py – Marks tests as a Python package.
+__init__.py – Marks tests as a Python package.
 
-    logs/ – Contains log files generated during script execution:
+logs/ – Contains log files generated during script execution:
 
-    client.log – Logs from client library actions and API requests.
+client.log – Logs from client library actions and API requests.
 
-    generator.log – Logs from generator.py script operations.
+generator.log – Logs from generator.py script operations.
 
-    simulator.log – Logs from simulator.py script operations.
+simulator.log – Logs from simulator.py script operations.
 
-    data/ – Data files used for initializing the system:
+data/ – Data files used for initializing the system:
 
-    customer__names.csv – CSV of sample customer names.
+customer__names.csv – CSV of sample customer names.
 
-    customers.json – Sample JSON customer data.
+customers.json – Sample JSON customer data.
 
-    services__list.json – JSON file listing services that customers may consume.
+services__list.json – JSON file listing services that customers may consume.
 
-    prompts/ – Placeholder folder for future LLM integration (ran out of time).
+**prompts/** – Placeholder folder for future LLM integration (ran out of time).
 
