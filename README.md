@@ -130,6 +130,7 @@ usage.py – Core logic for tracking and calculating usage for customers.
 
 __init__.py – Marks src as a Python package.
 ```
+
 **tests/** – Unit tests for verifying code correctness:
 ```
 test__client.py – Tests for the client library, including health checks, record usage, and idempotency.
@@ -142,14 +143,15 @@ test__simulator.py – Tests simulator functions and data generation.
 
 __init__.py – Marks tests as a Python package.
 ```
+
 **logs/** – Contains log files generated during script execution:
+```
+client.log – Logs from client library actions and API requests.
 
-**client.log** – Logs from client library actions and API requests.
+generator.log – Logs from generator.py script operations.
 
-**generator.log** – Logs from generator.py script operations.
-
-**simulator.log** – Logs from simulator.py script operations.
-
+simulator.log – Logs from simulator.py script operations.
+``
 **data/** – Data files used for initializing the system:
 
 **customer__names.csv** – CSV of sample customer names.
