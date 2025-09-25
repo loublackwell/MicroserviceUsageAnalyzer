@@ -165,8 +165,6 @@ services__list.json – JSON file listing services that customers may consume.
 **prompts/** – Placeholder folder for future LLM integration (ran out of time).
 
 ##Setup
+
 **Clone the repository**
-```
-git clone <<your-repo-url>>
-cd MicroserviceUsageAnalyzer
-```
+
