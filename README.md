@@ -102,7 +102,7 @@ MicroserviceUsageAnalyzer/
 
 **LICENSE** – License file for the project.
 
-###Folders
+### Folders
 
 **src/** – Source code for the application. Contains all main scripts:
 
