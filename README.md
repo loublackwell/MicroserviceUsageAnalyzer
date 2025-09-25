@@ -31,4 +31,34 @@ The development of this project focuses heavily on the following backend enginee
    2. Setup
    3. Usage
    4. Client Library
+   5. Testing and Simulation
+   6. Error Handling
+   7. Sample Outputs
+   8. References & Acknowledgement
+   
+---
+## Project Structure
+MicroserviceUsageAnalyzer/
+├── src/
+│   ├── client.py
+│   ├── client_logging.py
+│   ├── crud.py
+│   ├── simulator.py
+│   └── invalid_root/          # Optional folder for invalid root handling
+├── tests/
+│   ├── test_api.py
+│   ├── test_crud.py
+│   ├── test_simulator.py
+│   └── test_client.py
+├── data/                      # Sample data storage
+├── logs/                      # Logging output
+├── main.py                    # Entry point for API
+├── Dockerfile                 # Container setup
+├── docker-compose.yml
+├── requirements.txt
+├── README.md                  # This file
+└── LICENSE
+
+ 
+   
     
