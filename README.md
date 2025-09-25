@@ -87,21 +87,21 @@ customers.db – Main SQLite database containing customer and usage data.
 
 test__customers.db – Test database used for unit tests.
 
-**testing.db** – Another testing database, likely for intermediate/test purposes.
+testing.db – Another testing database, likely for intermediate/test purposes.
 
-**customers__tests.db** – Additional test database; used for test isolation.
+customers__tests.db – Additional test database; used for test isolation.
 
-**status.json** – Stores status information about the system or simulated runs.
+status.json – Stores status information about the system or simulated runs.
 
-**docker-compose.yml** – Docker Compose configuration file for running services.
+docker-compose.yml – Docker Compose configuration file for running services.
 
-**Dockerfile** – Dockerfile to containerize the application.
+Dockerfile – Dockerfile to containerize the application.
 
-**requirements.txt** – Python dependencies required to run the project.
+requirements.txt – Python dependencies required to run the project.
 
-**reference.txt** – References and acknowledgements, including data sources and tools used.
+reference.txt – References and acknowledgements, including data sources and tools used.
 
-**LICENSE** – License file for the project.
+LICENSE – License file for the project.
 ```
 
 ### Folders
