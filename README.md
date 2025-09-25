@@ -82,13 +82,13 @@ MicroserviceUsageAnalyzer/
 ---
 ### Root Directory Files and Folders
 ```
-*customers.db* – Main SQLite database containing customer and usage data.
+**customers.db** – Main SQLite database containing customer and usage data.
 
-*test__customers.db* – Test database used for unit tests.
+**test__customers.db** – Test database used for unit tests.
 
-*testing.db* – Another testing database, likely for intermediate/test purposes.
+**testing.db** – Another testing database, likely for intermediate/test purposes.
 
-*customers__tests.db* – Additional test database; used for test isolation.
+**customers__tests.db** – Additional test database; used for test isolation.
 
 status.json – Stores status information about the system or simulated runs.
 
