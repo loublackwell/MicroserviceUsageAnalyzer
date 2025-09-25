@@ -40,25 +40,105 @@ The development of this project focuses heavily on the following backend enginee
 ## Project Structure
 MicroserviceUsageAnalyzer/
 ```
+MicroserviceUsageAnalyzer/
 ├── src/
+│   ├── __init__.py
 │   ├── client.py
 │   ├── client_logging.py
 │   ├── crud.py
+│   ├── api.py
 │   ├── simulator.py
-│   └── invalid_root/          # Optional folder for invalid root handling
+│   ├── simulator-test.py
+│   ├── generator.py
+│   ├── initialize.py
+│   ├── service-utils.py
+│   └── usage.py
 ├── tests/
-│   ├── test_api.py
-│   ├── test_crud.py
-│   ├── test_simulator.py
-│   └── test_client.py
-├── data/                      # Sample data storage
-├── logs/                      # Logging output
-├── main.py                    # Entry point for API
-├── Dockerfile                 # Container setup
+│   ├── __init__.py
+│   ├── test__client.py
+│   ├── test__crud.py
+│   ├── test__api.py
+│   └── test__simulator.py
+├── logs/
+│   ├── client.log
+│   ├── generator.log
+│   └── simulator.log
+├── data/
+│   ├── customer__names.csv
+│   ├── customers.json
+│   └── services__list.json
+├── prompts/
+├── customers.db
+├── test__customers.db
+├── testing.db
+├── customers__tests.db
+├── status.json
 ├── docker-compose.yml
+├── Dockerfile
 ├── requirements.txt
-├── README.md                  # This file
+├── reference.txt
 └── LICENSE
+
+---
+
+**Root Directory Files and Folders**
+
+* `customers.db` – Main SQLite database containing customer and usage data.
+* `test__customers.db` – Test database used for unit tests.
+* `testing.db` – Another testing database, likely for intermediate/test purposes.
+* `customers__tests.db` – Additional test database; used for test isolation.
+* `status.json` – Stores status information about the system or simulated runs.
+* `docker-compose.yml` – Docker Compose configuration file for running services.
+* `Dockerfile` – Dockerfile to containerize the application.
+* `requirements.txt` – Python dependencies required to run the project.
+* `reference.txt` – References and acknowledgements, including data sources and tools used.
+* `LICENSE` – License file for the project.
+
+**Folders**
+
+* `src/` – Source code for the application. Contains all main scripts:
+
+  * `client.py` – Client library to interact with the internal usage tracking API. Handles requests, logging, and error tracking.
+  * `crud.py` – CRUD operations for database access (create, read, update, delete usage and customer data).
+  * `api.py` – FastAPI application exposing endpoints for usage tracking.
+  * `simulator.py` – Generates simulated usage data for testing purposes.
+  * `simulator-test.py` – Helper scripts for testing simulator outputs.
+  * `generator.py` – Additional data generation utilities (e.g., random timestamps or usage).
+  * `client-logging.py` – Logging utilities used by client and other scripts.
+  * `service-utils.py` – Utility functions for common service tasks.
+  * `initialize.py` – Sets up initial database structure and seeds sample data.
+  * `usage.py` – Core logic for tracking and calculating usage for customers.
+  * `__init__.py` – Marks `src` as a Python package.
+
+* `tests/` – Unit tests for verifying code correctness:
+
+  * `test__client.py` – Tests for the client library, including health checks, record usage, and idempotency.
+  * `test__crud.py` – Tests CRUD operations against the test database.
+  * `test__api.py` – Tests API endpoints (e.g., POST /usage).
+  * `test__simulator.py` – Tests simulator functions and data generation.
+  * `__init__.py` – Marks `tests` as a Python package.
+
+* `logs/` – Contains log files generated during script execution:
+
+  * `client.log` – Logs from client library actions and API requests.
+  * `generator.log` – Logs from generator.py script operations.
+  * `simulator.log` – Logs from simulator.py script operations.
+
+* `data/` – Data files used for initializing the system:
+
+  * `customer__names.csv` – CSV of sample customer names.
+  * `customers.json` – Sample JSON customer data.
+  * `services__list.json` – JSON file listing services that customers may consume.
+
+* `prompts/` – Placeholder folder for future LLM integration (ran out of time).
+
+---
+
+If you want, I can **also format this into a polished README-style text with headers and sections** next, so it reads well for someone reviewing your project.
+
+Do you want me to do that?
+
+
 ```
  
    
