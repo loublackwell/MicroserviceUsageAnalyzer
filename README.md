@@ -211,3 +211,18 @@ print(result)
 usage_data = client.get_usage(customer_id="123")
 print(usage_data)
 ```
+---
+## Testing and Simulation
+- Unit Tests: Each component has tests under tests/ using pytest.
+
+- Simulation: The simulator.py script generates randomized usage data for testing.
+
+- Coverage: Tests include:
+
+  - API endpoints
+
+  - CRUD operations
+
+  - Client library behavior
+
+  - Handling invalid or duplicate entries
