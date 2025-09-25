@@ -128,7 +128,6 @@ MicroserviceUsageAnalyzer/
 
 **__init__.py** – Marks src as a Python package.
 
----
 **tests/** – Unit tests for verifying code correctness:
 
 **test__client.py** – Tests for the client library, including health checks, record usage, and idempotency.
@@ -141,7 +140,6 @@ MicroserviceUsageAnalyzer/
 
 **__init__.py** – Marks tests as a Python package.
 
----
 **logs/** – Contains log files generated during script execution:
 
 **client.log** – Logs from client library actions and API requests.
@@ -149,7 +147,7 @@ MicroserviceUsageAnalyzer/
 **generator.log** – Logs from generator.py script operations.
 
 **simulator.log** – Logs from simulator.py script operations.
----
+
 **data/** – Data files used for initializing the system:
 
 **customer__names.csv** – CSV of sample customer names.
@@ -157,6 +155,6 @@ MicroserviceUsageAnalyzer/
 **customers.json** – Sample JSON customer data.
 
 **services__list.json** – JSON file listing services that customers may consume.
----
+
 **prompts/** – Placeholder folder for future LLM integration (ran out of time).
 
