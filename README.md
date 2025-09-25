@@ -178,3 +178,13 @@ conda create -n usage python=3.11
 conda activate usage
 pip install -r requirements.txt
 ```
+**Run the FastAPI service**
+```
+uvicorn src.main:app --reload
+```
+
+**Optional: Use Docker for containerized deployment**
+```
+docker build -t microservice-usage-analyzer .
+docker run -p 8000:8000 microservice-usage-analyzer
+```
