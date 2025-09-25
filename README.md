@@ -282,3 +282,7 @@ Duplicate entry detected for customer 123, service: Database Hosting
 - Simulation inspired by internal test requirements for error handling.
 - Logging implemented using client_logging.py for robust monitoring.
 
+## Notes / Optional Enhancements
+- Retry logic with exponential backoff for failed API requests
+- Additional tests for high-load simulation
+- Docker Compose setup to orchestrate database and API
