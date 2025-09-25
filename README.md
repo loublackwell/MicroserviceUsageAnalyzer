@@ -83,9 +83,9 @@ MicroserviceUsageAnalyzer/
 ### Root Directory Files and Folders
 
 ```
-**customers.db** – Main SQLite database containing customer and usage data.
+customers.db – Main SQLite database containing customer and usage data.
 
-**test__customers.db** – Test database used for unit tests.
+test__customers.db – Test database used for unit tests.
 
 **testing.db** – Another testing database, likely for intermediate/test purposes.
 
