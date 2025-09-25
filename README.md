@@ -232,3 +232,19 @@ print(usage_data)
 pytest -v tests/
 
 ```
+
+## Error Handling
+
+- API errors and exceptions are caught and logged using client_logging.py.
+
+- The client library implements retry logic with exponential backoff for failed requests.
+
+- Edge cases handled:
+
+  - Duplicate usage records (idempotent)
+
+  - Invalid customer IDs
+
+  - Invalid service entries
+
+  - Invalid database root paths
