@@ -106,11 +106,11 @@ MicroserviceUsageAnalyzer/
 
 **src/** – Source code for the application. Contains all main scripts:
 
-client.py – Client library to interact with the internal usage tracking API. Handles requests, logging, and error tracking.
+**client.py** – Client library to interact with the internal usage tracking API. Handles requests, logging, and error tracking.
 
-crud.py – CRUD operations for database access (create, read, update, delete usage and customer data).
+**crud.py** – CRUD operations for database access (create, read, update, delete usage and customer data).
 
-api.py – FastAPI application exposing endpoints for usage tracking.
+**api.py** – FastAPI application exposing endpoints for usage tracking.
 
 simulator.py – Generates simulated usage data for testing purposes.
 
