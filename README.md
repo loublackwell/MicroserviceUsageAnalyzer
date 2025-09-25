@@ -78,7 +78,7 @@ MicroserviceUsageAnalyzer/
 ├── requirements.txt
 ├── reference.txt
 └── LICENSE
-
+```
 ---
 
 ### Root Directory Files and Folders**
@@ -133,11 +133,6 @@ LICENSE` – License file for the project.
 * `prompts/` – Placeholder folder for future LLM integration (ran out of time).
 
 ---
-
-If you want, I can **also format this into a polished README-style text with headers and sections** next, so it reads well for someone reviewing your project.
-
-Do you want me to do that?
-
 
 ```
  
