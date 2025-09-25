@@ -226,3 +226,9 @@ print(usage_data)
   - Client library behavior
 
   - Handling invalid or duplicate entries
+
+###Run tests:
+```
+pytest -v tests/
+
+```
