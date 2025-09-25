@@ -256,3 +256,21 @@ Usage recorded for customer 123: Database Hosting (42 units)
 
 ```
 
+**Handling Duplicate Entry**
+```
+Duplicate entry detected for customer 123, service: Database Hosting
+
+```
+**Retrieving Usage**
+```
+{
+  "customer_id": "123",
+  "usage": [
+    {"service": "Database Hosting", "units": 42, "price": 0.15},
+    {"service": "CDN Storage", "units": 15, "price": 0.02}
+  ]
+}
+
+```
+
+
