@@ -248,3 +248,11 @@ pytest -v tests/
   - Invalid service entries
 
   - Invalid database root paths
+  
+## Sample Outputs
+**Recording Usage**
+```
+Usage recorded for customer 123: Database Hosting (42 units)
+
+```
+
