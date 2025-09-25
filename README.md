@@ -171,3 +171,10 @@ services__list.json – JSON file listing services that customers may consume.
 git clone <your-repo-url>
 cd MicroserviceUsageAnalyzer
 ```
+
+**Create a virtual environment and install dependencies**
+```
+conda create -n usage python=3.11
+conda activate usage
+pip install -r requirements.txt
+```
