@@ -142,19 +142,19 @@ MicroserviceUsageAnalyzer/
 
 **logs/** – Contains log files generated during script execution:
 
-client.log – Logs from client library actions and API requests.
+**client.log** – Logs from client library actions and API requests.
 
-generator.log – Logs from generator.py script operations.
+**generator.log** – Logs from generator.py script operations.
 
-simulator.log – Logs from simulator.py script operations.
+**simulator.log** – Logs from simulator.py script operations.
 
-data/ – Data files used for initializing the system:
+**data/** – Data files used for initializing the system:
 
-customer__names.csv – CSV of sample customer names.
+**customer__names.csv** – CSV of sample customer names.
 
-customers.json – Sample JSON customer data.
+**customers.json** – Sample JSON customer data.
 
-services__list.json – JSON file listing services that customers may consume.
+**services__list.json** – JSON file listing services that customers may consume.
 
 **prompts/** – Placeholder folder for future LLM integration (ran out of time).
 
