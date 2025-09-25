@@ -196,3 +196,18 @@ The BillingClient provides an interface for interacting with the web service. It
 - Retrieving usage
 - Idempotent requests
 - Error logging and retry logic
+
+### Example
+```
+from src.client import BillingClient
+
+client = BillingClient(api_url="http://127.0.0.1:8000")
+
+# Record usage
+result = client.record_usage(customer_id="123", service="Database Hosting", units=42, price=0.15)
+print(result)
+
+# Retrieve usage
+usage_data = client.get_usage(customer_id="123")
+print(usage_data)
+```
