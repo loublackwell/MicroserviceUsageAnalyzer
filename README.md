@@ -273,4 +273,12 @@ Duplicate entry detected for customer 123, service: Database Hosting
 
 ```
 
+## References & Acknowledgements
+- Kaggle Dataset: Customer Names Dataset
+- LLM Tools leveraged:
+  - ChatGPT
+  - Claude.ai
+  - DeepSeq
+- Simulation inspired by internal test requirements for error handling.
+- Logging implemented using client_logging.py for robust monitoring.
 
