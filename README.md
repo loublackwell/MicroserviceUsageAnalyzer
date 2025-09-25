@@ -39,6 +39,7 @@ The development of this project focuses heavily on the following backend enginee
 ---
 ## Project Structure
 MicroserviceUsageAnalyzer/
+```
 ├── src/
 │   ├── client.py
 │   ├── client_logging.py
@@ -58,7 +59,7 @@ MicroserviceUsageAnalyzer/
 ├── requirements.txt
 ├── README.md                  # This file
 └── LICENSE
-
+```
  
    
     
