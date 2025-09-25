@@ -103,7 +103,7 @@ MicroserviceUsageAnalyzer/
 **LICENSE** – License file for the project.
 
 ### Folders
-```
+
 **src/** – Source code for the application. Contains all main scripts:
 
 **client.py** – Client library to interact with the internal usage tracking API. Handles requests, logging, and error tracking.
