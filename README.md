@@ -192,7 +192,7 @@ docker run -p 8000:8000 microservice-usage-analyzer
 ## Usage
 **Client Library**
 The BillingClient provides an interface for interacting with the web service. It supports:
-    - Recording usage
-    - Retrieving usage
-    - Idempotent requests
-    - Error logging and retry logic
+- Recording usage
+- Retrieving usage
+- Idempotent requests
+- Error logging and retry logic
