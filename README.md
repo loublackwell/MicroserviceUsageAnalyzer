@@ -94,13 +94,13 @@ MicroserviceUsageAnalyzer/
 
 **docker-compose.yml** – Docker Compose configuration file for running services.
 
-Dockerfile – Dockerfile to containerize the application.
+**Dockerfile** – Dockerfile to containerize the application.
 
-requirements.txt – Python dependencies required to run the project.
+**requirements.txt** – Python dependencies required to run the project.
 
-reference.txt – References and acknowledgements, including data sources and tools used.
+**reference.txt** – References and acknowledgements, including data sources and tools used.
 
-LICENSE – License file for the project.
+**LICENSE** – License file for the project.
 
 Folders
 
