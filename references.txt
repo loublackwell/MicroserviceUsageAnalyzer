@@ -1,0 +1,10 @@
+References and Acknowledgments
+
+Dataset: Customer Names Dataset from Kaggle ([https://www.kaggle.com/datasets/sushamnandi/customer-names-dataset](https://www.kaggle.com/datasets/sushamnandi/customer-names-dataset)). This was used as inspiration for generating realistic sample customer and service usage records.
+
+LLMs and Tools: I used multiple AI coding partners (Claude, ChatGPT, DeepSeek, Gemini) to help with brainstorming, verification, and refinement of both the code and documentation.
+
+Diagrams: Excalidraw was used to create conceptual diagrams for planning the solution.
+
+Other Resources: I also referred to the Python official documentation, FastAPI documentation, and SQLite reference material while building the project.
+
