@@ -1,0 +1,20 @@
+
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: microservice_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app   # Mount project directory for live reload
+      - ./logs:/app/logs  # Persist logs
+      - ./customers.db:/app/customers.db  # Persist SQLite database
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: >
+      uvicorn src.api:app
+      --host 0.0.0.0
+      --port 8000
+      --reload

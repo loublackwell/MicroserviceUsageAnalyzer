@@ -1,0 +1,13 @@
+[
+  {"name": "VideoStreaming", "rate": 15.0},
+  {"name": "CloudStorage", "rate": 0.10},
+  {"name": "DataAnalytics", "rate": 50.0},
+  {"name": "EmailCampaigns", "rate": 0.05},
+  {"name": "RealtimeMessaging", "rate": 0.08},
+  {"name": "APIRequests", "rate": 0.02},
+  {"name": "FileSync", "rate": 0.15},
+  {"name": "VirtualMachineHours", "rate": 0.50},
+  {"name": "UserAuthentication", "rate": 0.01},
+  {"name": "DatabaseQueries", "rate": 0.03}
+]
+

@@ -1,0 +1,17 @@
+# Web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Environment management
+python-dotenv==1.0.1
+
+# Data handling
+pandas==2.1.1
+
+# HTTP requests
+requests==2.31.0
+python-multipart==0.0.6
+
+# Testing
+pytest==7.4.3
+httpx==0.26.1   # needed for TestClient (used by fastapi.testclient)
