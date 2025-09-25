@@ -81,7 +81,7 @@ MicroserviceUsageAnalyzer/
 ```
 ---
 ### Root Directory Files and Folders
-```
+
 **customers.db** – Main SQLite database containing customer and usage data.
 
 **test__customers.db** – Test database used for unit tests.
@@ -90,11 +90,11 @@ MicroserviceUsageAnalyzer/
 
 **customers__tests.db** – Additional test database; used for test isolation.
 
-status.json – Stores status information about the system or simulated runs.
+**status.json** – Stores status information about the system or simulated runs.
 
-docker-compose.yml – Docker Compose configuration file for running services.
+**docker-compose.yml** – Docker Compose configuration file for running services.
 
-Dockerfile – Dockerfile to containerize the application.
+**Dockerfile** – Dockerfile to containerize the application.
 
 requirements.txt – Python dependencies required to run the project.
 
@@ -156,5 +156,5 @@ customers.json – Sample JSON customer data.
 
 services__list.json – JSON file listing services that customers may consume.
 
-prompts/ – Placeholder folder for future LLM integration (ran out of time).
-```
+**prompts/** – Placeholder folder for future LLM integration (ran out of time).
+
