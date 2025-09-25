@@ -156,5 +156,5 @@ MicroserviceUsageAnalyzer/
 
     services__list.json – JSON file listing services that customers may consume.
 
-    **prompts/** – Placeholder folder for future LLM integration (ran out of time).
+    prompts/ – Placeholder folder for future LLM integration (ran out of time).
 
