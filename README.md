@@ -27,3 +27,8 @@ The development of this project focuses heavily on the following backend enginee
 
 ---
 ## Table of Contents
+   1. Project Structure
+   2. Setup
+   3. Usage
+   4. Client Library
+    
