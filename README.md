@@ -231,6 +231,16 @@ print(usage_data)
 ```
 pytest -v tests/
 
+tests/test_api.py::test_health_endpoint PASSED                       [ 10%]
+tests/test_api.py::test_record_usage_endpoint PASSED                 [ 20%]
+tests/test_client.py::test_health_check PASSED                       [ 30%]
+tests/test_client.py::test_record_usage PASSED                       [ 40%]
+tests/test_client.py::test_idempotent_usage PASSED                   [ 50%]
+tests/test_client.py::test_get_usage PASSED                          [ 60%]
+tests/test_crud.py::test_create_and_read_customer PASSED             [ 70%]
+tests/test_crud.py::test_create_and_read_usage PASSED                [ 80%]
+tests/test_simulator.py::test_random_timestamp PASSED                [ 90%]
+tests/test_simulator.py::test_generate_random_usage_structure PASSED [100%]
 ```
 
 ## Error Handling
